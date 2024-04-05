@@ -6,7 +6,7 @@
 </head>
 
 <body>
-<div class="poopy">
+<div class="bar">
   <nav id="navbar">
     <ul>
         <li></li>
