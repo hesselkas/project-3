@@ -1,16 +1,32 @@
-
+@import url("https://fonts.google.com/share?selection.family=Barlow:wght@100|Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900");
 
 
 
 body {
     background-color: #1A5B65;
-
+    background-image: url("40gp-uneedit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 560px;
+    max-height: 100%;
+    position: absolute;
 }
 
+.text1 {
+    text-decoration: none;
+    font-family:"Roboto Light";
+}
+.text2 {
+    font-family:"Roboto Thin";
+    text-decoration: none;
+    color: white;
+}
 
-
-
-
+.logo1 {
+    display: flex;
+    justify-content: right;
+    margin-left: 400px;
+}
 
 
 
@@ -61,5 +77,13 @@ body {
     color: #ffd700;
 }
 
+.footer {
+    background-color: #1A5B65;
+    display: flex;
+    margin-top: 443px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-left: -8px;
+}
 
 
