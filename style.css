@@ -1,8 +1,65 @@
 
 
 
+
 body {
     background-color: #1A5B65;
 
 }
+
+
+
+
+
+
+
+
+.navbar {
+    float: left;
+    position: sticky;
+    justify-content: space-between;
+    top: 0px;
+    background-size: cover;
+    text-decoration: none;
+    background-color: white;
+    width: 100%;
+    height: 65px;
+
+
+
+}
+.logo {
+    display: flex;
+    justify-content: left;
+    width: 140px;
+    height: 50px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+
+}
+
+.nav-list li {
+    margin-left: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+
+
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-list li a:hover {
+    color: #ffd700;
+}
+
+
 
