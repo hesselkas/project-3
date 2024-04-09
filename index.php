@@ -11,13 +11,13 @@
     <img class="logo" src="images-removebg-preview.png" >
     <ul class="nav-list">
 
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="over_ons.php">About Us</a></li>
+        <li><a href="">Webshop</a></li>
+        <li><a href="zakelijk.php">Zakelijk</a></li>
+        <li><a href="services.php">Service</a></li>
+        <li><a href="reparaties.php">Reparaties</a></li>
+        <li><a href="ITNieuws.php">IT Nieuws</a></li>
     </ul>
 
 </nav>
