@@ -22,7 +22,7 @@
 
 </nav>
 
-<button id="knopmain"> Leer ons kennen</button>
+<button class="knopmain"> Leer ons kennen</button>
 
 <img class="mainlogo" src="images-removebg-preview.png" >
 
