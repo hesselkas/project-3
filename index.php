@@ -22,7 +22,7 @@
 
 </nav>
 
-<button class="knopmain"> Leer ons kennen</button>
+<button class="knopmain"><a href="over_ons.php"  </a> Leer ons kennen</button>
 
 <img class="mainlogo" src="images-removebg-preview.png" >
 

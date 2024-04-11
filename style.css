@@ -21,6 +21,7 @@ main{
     position: relative;
     top: 360px ;
     margin-left: 13%;
+    text-decoration: none;
 
 }
 .knopmain:hover {
