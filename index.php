@@ -22,6 +22,8 @@
 
 </nav>
 
+<h1 class="textmain"> Heeft u een reperatie nodig kom gerust lang.</h1>
+
 <button class="knopmain"><a href="over_ons.php"  </a> Leer ons kennen</button>
 
 <img class="mainlogo" src="images-removebg-preview.png" >
