@@ -9,9 +9,9 @@
 <body>
 
 <nav class="navbar">
-    <img class="logo" src="images-removebg-preview.png" >
-    <ul class="nav-list">
 
+    <ul class="nav-list">
+        <img class="logo" src="images-removebg-preview.png" >
         <li><a href="index.php">Home</a></li>
         <li><a href="over_ons.php">About Us</a></li>
         <li><a href="">Webshop</a></li>
@@ -30,7 +30,9 @@
 <img class="mainlogo" src="images-removebg-preview.png" >
 
 <div class="footer">
-    <p>Footer</p>
+    <h3 id="textfooter"> Zuidbaan 514, 2841MD Moordrecht</h3>
+    <h3 id="textfooter2">+316 30 985 409 Servicenummer  +3118 28 202 18 Kantoor,</h3>
+    <h3 id="textfooter3"> Bereikbaar van 09:00 - 18:00</h3>
 </div>
 
 
