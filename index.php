@@ -29,6 +29,10 @@
 
 <img class="mainlogo" src="images-removebg-preview.png" >
 
+<div class="footer">
+    <p>Footer</p>
+</div>
+
 
 </body>
 </html>
