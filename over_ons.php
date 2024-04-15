@@ -23,10 +23,11 @@
         <li><a href="ITNieuws.php">IT Nieuws</a></li>
     </ul>
 </nav>
-
-<h1> </h1>
 <div class="footer">
-<h1>huidaw</h1>
+    <h3 id="textfooter"> Zuidbaan 514, 2841MD Moordrecht</h3>
+    <h3 id="textfooter2">+316 30 985 409 Servicenummer  +3118 28 202 18 Kantoor,</h3>
+    <h3 id="textfooter3"> Bereikbaar van 09:00 - 18:00</h3>
 </div>
+
 </body>
 
