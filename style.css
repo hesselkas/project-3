@@ -8,20 +8,8 @@
     color: white;
     font-size: 15px;
     column-count: 3;
-}
-#textfooter{
-    display: inline-block;
-    column-count: 3;
-}
-
-#textfooter2{
-    display: inline-block;
-    column-count: 3;
-}
-
-#textfooter3{
-    display: inline-block;
-    column-count: 3;
+    display: flex;
+    justify-content: space-around;
 }
 
 body {
