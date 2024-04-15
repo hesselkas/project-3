@@ -7,8 +7,9 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-<div class="container"></div>
 
+
+<div class="container"></div>
 <nav class="navbar">
     <img class="logo" src="images-removebg-preview.png" >
     <ul class="nav-list">
@@ -21,13 +22,11 @@
         <li><a href="reparaties.php">Reparaties</a></li>
         <li><a href="ITNieuws.php">IT Nieuws</a></li>
     </ul>
-
 </nav>
-
 
 <h1> </h1>
 <div class="footer">
-<h1>hdihaihsdhi</h1>
+<h1>huidaw</h1>
 </div>
 </body>
 

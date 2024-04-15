@@ -24,11 +24,14 @@
     column-count: 3;
 }
 
-body{
+body {
+    background-image: url("40gp-uneedit.jpg");
     margin: 0px;
     background-color: #1e425d;
+    background-size: cover;
 }
-main{
+
+main {
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -37,6 +40,7 @@ main{
     position: relative;
     top: 290px;
     left: 80px;
+    max-width: 500px;
 
 }
 
@@ -106,5 +110,10 @@ main{
     overflow: hidden;
     background-color: white;
     padding-right: 522px;
+}
+
+.footer {
+    
+
 
 }
