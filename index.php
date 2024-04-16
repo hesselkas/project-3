@@ -29,6 +29,10 @@
 
 <img class="mainlogo" src="images-removebg-preview.png" >
 
+
+<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d39284.770344537326!2d4.670808!3d52.01966600000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5d17dc64b3607%3A0xc5236f0d48a8cb14!2sZuidbaan%20514%2C%202841%20MJ%20Moordrecht%2C%20Nederland!5e0!3m2!1snl!2sus!4v1713254843498!5m2!1snl!2sus"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
 <div class="footer">
     <h3 id="textfooter"> Zuidbaan 514, 2841MD Moordrecht</h3>
     <h3 id="textfooter2">+316 30 985 409 Servicenummer  +3118 28 202 18 Kantoor,</h3>
