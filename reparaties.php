@@ -7,6 +7,7 @@
 </head>
 <body>
 
+
 <nav class="navbar">
 
     <ul class="nav-list">
@@ -19,7 +20,6 @@
         <li><a href="reparaties.php">Reparaties</a></li>
         <li><a href="ITNieuws.php">IT Nieuws</a></li>
     </ul>
-
 </nav>
 
 <div class="footer">
@@ -27,6 +27,12 @@
     <h3 id="textfooter2">+316 30 985 409 Servicenummer  +3118 28 202 18 Kantoor,</h3>
     <h3 id="textfooter3"> Bereikbaar van 09:00 - 18:00</h3>
 </div>
+
+<div class="text2">
+    <h1>13ea</h1>
+</div>
+
+
 
 </body>
 </html>
