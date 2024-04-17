@@ -1,4 +1,12 @@
 
+.facebook{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+.socials{
+    text-decoration: none;
+}
 
 .footer {
     position: fixed;
@@ -18,6 +26,7 @@
     width:1515px;
     height: 500px;
     top: 900px;
+    margin-bottom: 53px;
 
 }
 
@@ -132,28 +141,37 @@ main {
     padding-right: 505px;
 }
 
-#kleineletters {
+.diensten{
     margin: 0%;
-    position: relative;
-    top: 150px;
     margin-left: 200px;
     color:white;
+    font: italic;
+    margin-top: 100px;
 }
 
-#groteletters{
+
+.kleineletters {
     margin: 0%;
     position: relative;
-    top: 160px;
-    margin-left: 200px;
-    color:white;
+    top: 180px;
 }
 
-#aboutustext {
-    margin: 0%;
+.groteletters{
+    position: relative;
+    top: 160px
+}
+
+.aboutustext {
     position: relative;
     top: 170px;
+}
+.aboutt{
+    margin: 0;
     margin-left: 200px;
     color:white;
+    font: italic;
+
+
 }
 
 .text2 {
