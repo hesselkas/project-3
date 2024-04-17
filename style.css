@@ -99,6 +99,10 @@ main {
     color: white;
     position: absolute;
     top: 730px;
+    border: #CCCCCC;
+    border-radius: 10px;
+    border-style: solid;
+    justify-items: center;
 }
 
 
@@ -175,7 +179,7 @@ main {
 .background1 {
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
+    position: sticky;
     z-index: -5;
     opacity: 0.6;
     object-fit: cover;
@@ -185,6 +189,7 @@ main {
     bottom: 10px;
     top: -150px;
 }
+
 
 .divider{
     height: 800px;
@@ -246,5 +251,150 @@ span::after {
 
 #touch:checked + .slide {
     height: 194px;
+    height: 800px; }
 
+
+    .text3 {
+         max-width: 800px;
+         margin: 0 auto;
+         padding: 20px;
+         background-color: #fff;
+         border-radius: 10px;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     }
+     #kleineletters {
+         color: #666;
+         font-size: 18px;
+     }
+     #groteletters {
+         color: #333;
+         font-size: 36px;
+         margin-top: 10px;
+     }
+
+#aboutustext {
+         color: #444;
+         font-size: 16px;
+         line-height: 1.6;
+         margin-top: 20px;
+     }
+
+.footer {
+    font-family: Bahnschrift;
+}
+
+.text4 {
+    position: relative;
+    top: 350px;
+    font-family: Bahnschrift;
+    background-color: #1e425d;
+    margin-bottom: 1000px;
+}
+
+.navbar1 ul {
+    float: right;
+    display: flex;
+    list-style-type: none;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    margin-top: -22px;
+}
+
+.navbar1 a {
+    color: black;
+    text-decoration: none;
+    padding: 22px;
+    display: block;
+    text-align: center;
+    font-size: 22px;
+}
+
+.navbar1 a:hover {
+    background-color: #00bfbf;
+}
+
+.reparatie {
+    position: absolute;
+    background-color: #1e425d;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 40px;
+    display: flex;
+    height:600px;
+    width: 1000px;
+    border: 5px #CCCCCC;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+
+.reparatie1,
+.reparatie2,
+.reparatie3 {
+    padding: 50px; /* Add padding for spacing between segments */
+    border-right: 2px solid #CCCCCC; /* Add border between segments */
+    border-left: 2px solid #CCCCCC;
+    width: 300px;
+    height: 500px;
+}
+
+.reparatie1 h1,
+.reparatie2 h1,
+.reparatie3 h1 {
+    margin: 0; /* Remove default margin */
+    padding: 0;
+    color: #fff; /* Text color */
+    font-family: Bahnschrift;
+    margin-top: -30px;
+}
+
+.reparatie1 h2,
+.reparatie2 h2,
+.reparatie3 h2 {
+    color: #CCCCCC;
+    font-family: Bahnschrift;
+    font-weight: lighter;
+}
+
+.reparatie1 h3,
+.reparatie2 h3,
+.reparatie3 h3 {
+    color: #CCCCCC;
+    font-family: Bahnschrift;
+    font-size: 30px;
+}
+
+.reparatie1 p,
+.reparatie2 p,
+.reparatie3 p {
+    color: #CCCCCC;
+    font-family: Bahnschrift;
+    font-size: 15px;
+}
+
+.reparatie1 h4,
+.reparatie2 h4,
+.reparatie3 h4 {
+    color: #CCCCCC;
+    font-family: Bahnschrift;
+    font-size: 20px;
+}
+
+.button7,
+.button8,
+.button9 {
+    background: transparent;
+    background-color: #2d2f31;
+    color: #CCCCCC;
+}
+
+.reparatie1 h5,
+.reparatie2 h5,
+.reparatie3 h5 {
+    color: #CCCCCC;
+    font-family: Bahnschrift;
+    font-size: 15px;
+    font-weight: lighter;
 }
