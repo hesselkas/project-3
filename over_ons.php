@@ -41,13 +41,16 @@
 <h2 class="aboutustext">Welkom bij Uneed-IT, de IT specialist met een rijke historie op gebied van PC reparatie en onderhoud. Wij staan vooral bekend als de IT Specialist in de regio Zuidplas. Zo ziet u ons Uneed-IT logo op het busje vaak rijden in Boskoop, Moerkapelle, Nieuwekerk a/d Ijssel, Waddinxveen en Zevenhuizen. Ook kunt u bij ons terecht voor de aanschaf van nieuwe hardware. We komen graag bij u langs om de problemen met uw PC of laptop te verhelpen of nieuw aangeschafte hardware goed voor u in te stellen. Uiteraard bent u van harte welkom in onze winkel, de koffie staat klaar</h2>
 </div>
 
+<label for="touch"><span>Diensten</span></label>
+<input type="checkbox" id="touch">
 
+<ul class="slide">
+    <li><a>Telefonen</a></li>
+    <li><a>Computers</a></li>
+    <li><a>Laptops</a></li>
+    <li><a>Intern problemen</a></li>
+</ul>
 
-<div class="diensten">
-    <p  class="kleineletters">Diensten</p>
-    <h1 class="groteletters">Alle diensten die we hebben</h1>
-    <h2 class="aboutustext"> We reparenen alles van Iphones, Samsungs tot computers.</h2>
-</div>
 
 
 

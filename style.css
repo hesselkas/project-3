@@ -141,35 +141,27 @@ main {
     padding-right: 505px;
 }
 
-.diensten{
-    margin: 0%;
-    margin-left: 200px;
-    color:white;
-    font: italic;
-    margin-top: 100px;
-}
 
 
 .kleineletters {
     margin: 0%;
     position: relative;
-    top: 180px;
+    top: 60px;
 }
 
 .groteletters{
     position: relative;
-    top: 160px
+    top: 60px
 }
 
 .aboutustext {
     position: relative;
-    top: 170px;
+    top: 60px;
 }
 .aboutt{
     margin: 0;
     margin-left: 200px;
     color:white;
-    font: italic;
 
 
 }
@@ -196,4 +188,63 @@ main {
 
 .divider{
     height: 800px;
+}
+
+
+
+
+
+
+span {
+    padding : 15px;
+    background : #2d2f31;
+    color : white;
+    width: 50%;
+    font-size : 1.2em;
+    font-variant : small-caps;
+    cursor : pointer;
+    display: flex;
+    position: relative;
+    top: 60px;
+    left: 200px;
+}
+
+span::after {
+    float: right;
+    right: 10%;
+}
+
+.slide {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    width:20%;
+    height: 0px;
+    position: relative;
+    top: 40px;
+    background-color: #4d4d4d  ;
+    overflow: hidden;
+    transition: height .4s ease;
+    margin-bottom: 100px;
+    left: 200px;
+
+}
+.slide li {
+    padding : 15px;
+    color: white;
+}
+
+.slide li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#touch {
+    position: absolute; opacity: 0; height: 0px;
+}
+
+#touch:checked + .slide {
+    height: 194px;
+
 }
