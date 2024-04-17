@@ -15,10 +15,9 @@
 
 
 .map{
-    width:1530px;
-    height: 200px;
-    position: relative;
-    margin-top: 300px;
+    width:1515px;
+    height: 500px;
+    top: 900px;
 
 }
 
@@ -72,6 +71,16 @@ main {
     color: white;
 }
 
+.webshop {
+    background-color: #1e425d;
+    margin: 30px;
+    color: white;
+    position: absolute;
+    top: 730px;
+}
+
+
+
 .mainlogo {
     display: flex;
     height: 200px;
@@ -87,7 +96,7 @@ main {
     background-color: white;
     padding: 0px;
     margin: 0px;
-    overflow: hidden;
+    height: 70px;
 
 }
 .navbar a{
@@ -104,10 +113,10 @@ main {
 
 .logo {
     width: 160px;
-        height: 60px;
+    height: 60px;
     overflow: hidden;
     background-color: white;
-    padding-right: 522px;
+    padding-right: 505px;
 }
 
 #kleineletters {
@@ -154,3 +163,6 @@ main {
     top: -150px;
 }
 
+.divider{
+    height: 800px;
+}
