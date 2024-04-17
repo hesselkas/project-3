@@ -17,7 +17,8 @@
     width:1530px;
     height: 200px;
     position: relative;
-    top: 300px;
+    margin-top: 300px;
+
 }
 
 body {
@@ -69,7 +70,7 @@ main {
 
 }
 .knopmain:hover {
-    background-color: #00bfbf ;
+    background-color: #003f54;
     color: white;
 }
 
