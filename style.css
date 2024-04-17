@@ -23,7 +23,6 @@
 }
 
 body {
-    background-image: url("40gp-uneedit.jpg");
     margin: 0px;
     background-color: #1e425d;
     background-size: cover;
@@ -140,3 +139,18 @@ main {
     top: 900px;
     margin-bottom: 500px;
 }
+
+.background1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -5;
+    opacity: 0.6;
+    object-fit: cover;
+    max-height: 900px;
+    max-width: 1800px;
+    width: 100%;
+    bottom: 10px;
+    top: -150px;
+}
+

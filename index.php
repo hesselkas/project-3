@@ -50,6 +50,7 @@
     <h3 id="textfooter3"> Bereikbaar van 09:00 - 18:00</h3>
 </div>
 
+<img class="background1" src="40gp-uneedit.jpg">
 
 </body>
 </html>
