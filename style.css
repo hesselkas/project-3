@@ -49,10 +49,23 @@ main {
     color: black;
 
 }
+.knopweb {
+    text-decoration: none;
+    background-color: #003f54;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+.knopweb:hover {
+    background-color: #00bfbf;
+    color: #003f54 ;
+}
 
 .knopmain{
     text-decoration: none;
-    background-color: #00bfbf ;
+    background-color: #003f54 ;
     color: white;
     padding: 16px 32px;
     text-align: center;
@@ -67,8 +80,8 @@ main {
 
 }
 .knopmain:hover {
-    background-color: #003f54;
-    color: white;
+    background-color: #00bfbf;
+    color: #003f54;
 }
 
 .webshop {

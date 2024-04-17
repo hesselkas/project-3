@@ -30,17 +30,18 @@
 
 <button class="knopmain"><a href="over_ons.php"></a> Leer ons kennen</button>
 
+
 <div class="divider">-</div>
 <div>
 </div>
-<brc >
+<brc>
 
 <div class="webshop">
     <p class="webshopp1"> de uneed-it webshop</p>
     <h1 class="webshopp2"> BEZOEK DE OFFICIELE WEBSHOP</h1>
     <p class="webshopp3">Op de Uneed-IT Webshop vindt u hoogwaardige producten met de service die u van ons gewend bent. Wij doen niet aan 'leveren en zelf uitzoeken', maar voelen ons verantwoordelijk voor elk product dat wij leveren.</p>
     <p class="webshopp4">Dat wil zeggen dat wij graag de extra stap zetten om zeker te weten dat u goed overweg kunt met het product en afgestemd is op uw situatie. Alle producten worden standaard geleverd met drie jaar garantie! Kortom, bij Uneed-IT kunt u met gerust hart uw nieuwe laptop of printer aanschaffen. Wij staan voor u klaar om u vrijblijvend advies te geven over onze producten.</p>
-
+    <button class="knopweb"><a href="webshop.php"></a>Webshop</button>
 </div>
 
 
