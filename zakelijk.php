@@ -18,12 +18,25 @@
         <li><a href="services.php">Service</a></li>
         <li><a href="reparaties.php">Reparaties</a></li>
         <li><a href="ITNieuws.php">IT&nbsp;Nieuws</a></li>
-
-
     </ul>
-
 </nav>
 
+<div class="login-container">
+    <h2>Reparatie boeken</h2>
+    <form class="login-form" action="zakelijk.php" method="post">
+        <div class="empty-rows">
+            <input type="text" placeholder="Merk">
+            <input type="text" placeholder="Model">
+            <input type="text" placeholder="Soort device">
+            <input type="text" placeholder="Fabricatiedatum">
+            <input type="text" placeholder="Garantiedatum">
+            <input id="klacht" type="text" placeholder="Klachtomschrijving">
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Verstuur">
+        </div>
+    </form>
+</div>
 
 </body>
 </html>
@@ -41,4 +54,14 @@
 <img class="background1" src="40gp-uneedit.jpg">
 
 
-<?php ?>
+<?php
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+$db = new PDO('mysql:host=localhost;dbname=voorbeeld_database'
+    , "root", "");
+$statement = $db->prepare("SELECT * FROM vogels");
+$statement->execute();
+$data = $statement->fetchAll();

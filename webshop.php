@@ -32,9 +32,9 @@
         <a href="https://www.facebook.com/ikmaakhetwel.nl/"><img class="facebook" src="facebook.png"> </a>
         <a href="https://www.linkedin.com/in/john-sips-7712b011/?locale=nl_NL"><img class="facebook" src="linkedin.png"> </a>
         <a href="https://www.instagram.com/ikmaakhetwel/"><img class="facebook" src="instagram.png"> </a>
-
     </div>
 </div>
+
 <img class="background1" src="40gp-uneedit.jpg">
 
 </div>
