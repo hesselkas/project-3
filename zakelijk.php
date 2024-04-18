@@ -25,12 +25,15 @@
     <h2>Reparatie boeken</h2>
     <form class="login-form" action="zakelijk.php" method="post">
         <div class="empty-rows">
-            <input type="text" placeholder="Merk">
-            <input type="text" placeholder="Model">
-            <input type="text" placeholder="Soort device">
-            <input type="text" placeholder="Fabricatiedatum">
-            <input type="text" placeholder="Garantiedatum">
-            <input id="klacht" type="text" placeholder="Klachtomschrijving">
+            <input type="text" placeholder="Merk" id="Merk" name="Merk">
+            <input type="text" placeholder="Model"id="Model" name="Model">
+            <input type="text" placeholder="Soort device"id="SoortDevice" name="SoortDevice">
+            <input type="text" placeholder="Fabricatiedatum"id="Fabricatiedatum" name="Fabricatiedatum">
+            <input type="text" placeholder="Adress"id="Adress" name="Adress">
+            <input type="text" placeholder="Postcode"id="Postcode" name="Postcode">
+            <input type="text" placeholder="Telefoonnummer"id="Telefoonnummer" name="Telefoonnummer">
+            <input type="text" placeholder="Garantiedatum"id="Garantiedatum" name="Garantiedatum">
+            <input id="klacht" type="text" placeholder="Klachtomschrijving"id="Klacht" name="Klacht">
         </div>
         <div class="form-group">
             <input type="submit" value="Verstuur">
@@ -55,13 +58,26 @@
 
 
 <?php
+  $Merk = $_POST['Merk'];
+  $Model = $_POST['Model'];
+  $SoortDevice = $_POST['SoortDevice'];
+  $Fabricatiedatum = $_POST['Fabricatiedatum'];
+  $Garantiedatum = $_POST['Garantiedatum'];
+  $Klacht = $_POST['Klacht'];
+  $Adress = $_POST['Adress'];
+  $Postcode = $_POST['Postcode'];
+  $Telefoonnummer = $_POST['Telefoonnummer'];
 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
-$db = new PDO('mysql:host=localhost;dbname=voorbeeld_database'
-    , "root", "");
-$statement = $db->prepare("SELECT * FROM vogels");
-$statement->execute();
-$data = $statement->fetchAll();
+$conn = new mysqli('localhost','root','','databaseproject');
+  if($conn->connect_error){
+      die('Connection Failed  :  '.$conn->connect_error);
+  }else{
+      $stmt = $conn->prepare("insert into reparaties(Merk, Model, SoortDevice, Fabricatiedatum, Garantiedatum, Klacht, Adress, Postcode, Telefoonnummer)
+    values (?,?,?,?,?,?,?,?,?)");
+      $stmt->bind_param("sssssssss",$Merk, $Model, $SoortDevice, $Fabricatiedatum, $Garantiedatum, $Klacht, $Adress, $Postcode, $Telefoonnummer);
+      $stmt->execute();
+      echo "Aanvraag Succesvol...";
+      $stmt->close();
+      $conn->close();
+  }
+?>
