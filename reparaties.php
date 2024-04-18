@@ -13,7 +13,6 @@
         <img class="logo"  src="images-removebg-preview.png">
         <li><a href="index.php">Home</a></li>
         <li><a href="over_ons.php">About&nbsp;Us</a></li>
-        <li><a href="over_ons.php">About Us</a></li>
         <li><a href="webshop.php">Webshop</a></li>
         <li><a href="zakelijk.php">Zakelijk</a></li>
         <li><a href="services.php">Service</a></li>
@@ -28,7 +27,8 @@
         <h2>We offeren reparaties aan producten van: Apple, Samsung, Huawei en Nokia</h2>
         <h4>Type reparaties: Interne reparatie en Externe reparatie</h4>
         <h5>Verwachte duur: 3-5 Dagen</h5>
-        <h3>Kosten</h3>
+        <h5>Bezorgdiensten: UPS, DHL en HOMERR</h5>
+        <h4>Kosten</h4>
         <p>€150,- tot €280,-</p>
         <button class="button9" onclick="window.location.href='services.php'">Boek reparatie</button>
     </div>
@@ -37,7 +37,8 @@
         <h2>We offeren reparaties aan producten van: Apple, Samsung, Huawei en Nokia</h2>
         <h4>Type reparaties: Interne reparatie en Externe reparatie</h4>
         <h5>Verwachte duur: 1-3 Dagen</h5>
-        <h3>Kosten</h3>
+        <h5>Bezorgdiensten: UPS, DHL en HOMERR</h5>
+        <h4>Kosten</h4>
         <p>€100,- tot €230,- </p>
         <button class="button8" onclick="window.location.href='services.php'">Boek reparatie</button>
     </div>
@@ -46,7 +47,8 @@
         <h2>We offeren reparaties aan producten van: Apple, Samsung, Huawei en Nokia</h2>
         <h4>Type reparaties: Interne reparatie en Externe reparatie</h4>
         <h5>Verwachte duur: ~1 Week</h5>
-        <h3>Kosten</h3>
+        <h5>Bezorgdiensten: UPS, DHL en HOMERR</h5>
+        <h4>Kosten</h4>
         <p>€250,- tot €400,-</p>
         <button class="button7" onclick="window.location.href='services.php'">Boek reparatie</button>
     </div>

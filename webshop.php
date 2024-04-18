@@ -7,20 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav class="navbar1">
+<nav class="navbar">
 
     <ul class="nav-list">
-        <img class="logo" src="images-removebg-preview.png" >
+        <img class="logo"  src="images-removebg-preview.png">
         <li><a href="index.php">Home</a></li>
-        <li><a href="over_ons.php">About Us</a></li>
+        <li><a href="over_ons.php">About&nbsp;Us</a></li>
         <li><a href="webshop.php">Webshop</a></li>
         <li><a href="zakelijk.php">Zakelijk</a></li>
         <li><a href="services.php">Service</a></li>
         <li><a href="reparaties.php">Reparaties</a></li>
-        <li><a href="ITNieuws.php">IT Nieuws</a></li>
+        <li><a href="ITNieuws.php">IT&nbsp;Nieuws</a></li>
     </ul>
 </nav>
-
 <img class="background1" src="40gp-uneedit.jpg">
 
 <div class="footer">
@@ -35,12 +34,9 @@
     </div>
 </div>
 
+<h1 class="webshoptext"> Deze pagina is momenteel niet beschikbaar</h1>
+
 <img class="background1" src="40gp-uneedit.jpg">
 
-</div>
-
-<div class="text4">
-    <h1>Deze website is op dit moment niet beschikbaar</h1>
-</div>
 
 </body>
