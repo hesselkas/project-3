@@ -444,3 +444,177 @@ span::after {
 #klacht {
   padding-bottom: 100px;
 }
+
+
+
+.foto1 {
+    height: 180px;
+    position: relative;
+    top: -800px;
+    left: 300px;
+}
+
+
+.foto2 {
+    position: relative;
+    height: 180px;
+    top: -800px;
+    left: 350px;
+}
+
+
+.foto3 {
+    position: relative;
+    height: 180px;
+    top: -800px;
+    left: 450px;
+}
+
+
+.Lees_Meer1 {
+    position: relative;
+    top: -800px;
+    height: 40px;
+    left: 200PX;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 15px;
+    border-width: 0;
+}
+
+
+.Lees_Meer2 {
+    position: relative;
+    top: -800px;
+    height: 40px;
+    left: -440PX;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 15px;
+    border-width: 0;
+}
+
+
+.Lees_Meer3 {
+    position: relative;
+    top: -840px;
+    height: 40px;
+    left: 350PX;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 15px;
+    border-width: 0;
+}
+
+
+.block {
+    height: 1000px;
+    width: 380px;
+    background-color: #3c8fcf;
+}
+
+
+.zij_titel1 {
+    position: relative;
+    bottom: 950px;
+    left: 60px;
+    max-width: 200px;
+    transition: 0.15s;
+}
+
+
+.zij_titel2 {
+    position: relative;
+    bottom: 900px;
+    left: 60px;
+    max-width: 200px;
+    transition: 0.15s;
+}
+
+
+.zij_titel1:hover {
+    color: red;
+}
+
+
+.zij_titel2:hover {
+    color: red;
+}
+
+
+.line {
+    position: relative;
+    background-color: black;
+    opacity: 20%;
+    height: 1px;
+    width: 200px;
+    bottom: 980px;
+    left: 50px;
+    max-width: 500px;
+}
+
+
+.line2 {
+    position: relative;
+    background-color: black;
+    opacity: 20%;
+    height: 1px;
+    width: 200px;
+    bottom: 900px;
+    left: 50px;
+    max-width: 500px;
+}
+
+
+.zoek_balk {
+    position: relative;
+    bottom: 1045px;
+    height: 25px;
+    left: 60px;
+    background-color: white;
+    border-width: 0;
+    color: black;
+}
+
+
+.zoek_knop {
+    position: relative;
+    bottom: 1037px;
+    left: 60px;
+    height: 30px;
+    width: 30px;
+    border-radius: 15%;
+    border-width: 0;
+    background-color: white;
+}
+
+
+.zoek_image {
+    position: relative;
+    left: -7px;
+    height: 25px;
+    cursor: pointer;
+}
+
+
+.zoek {
+    background-color: white;
+}
+
+
+.zoek_background {
+    position: relative;
+    background-color: white;
+    height: 30px;
+    width: 200px;
+    bottom: 1007px;
+    left: 50px;
+    border-radius: 15px;
+}
+
+
+.Recent {
+    position: relative;
+    bottom: 980px;
+    left: 70px;
+}
